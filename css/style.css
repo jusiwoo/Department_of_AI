@@ -1,0 +1,22 @@
+@import url(./reset.css);
+
+.headerWrap{
+    border: 1px solid black;
+    border-width: 0 0 1px 0;
+}
+.headerWrap header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.headerWrap .logo h1{
+    height: 40px;
+    margin-top: 20px;
+}
+.headerWrap .menu ul{
+    display: flex;
+    justify-content: space-between;
+}
