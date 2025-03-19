@@ -19,4 +19,8 @@
 .headerWrap .menu ul{
     display: flex;
     justify-content: space-between;
+    height: 40px;
+    margin-top: 20px;
+    line-height: 40px;
+    word-spacing: 55px;
 }
