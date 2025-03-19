@@ -1,5 +1,12 @@
+@charset "utf-8";
 @import url(./reset.css);
 
+*{
+    text-decoration: none;
+    color: #333;
+}
+
+/* header */
 .headerWrap{
     border: 1px solid black;
     border-width: 0 0 1px 0;
@@ -22,5 +29,74 @@
     height: 40px;
     margin-top: 20px;
     line-height: 40px;
-    word-spacing: 55px;
+    gap: 35px;
+    font-size: 16px;
 }
+.headerWrap .join{
+    height: 40px;
+    margin-top: 20px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+/* imgSlide */
+.imgSlide{
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+.imgSlide .img{
+    width: 100%;
+    height: 560px;
+    position: absolute;
+}
+.imgSlide .img.i1{
+    background-color: #f00;
+}
+.imgSlide .img.i2{
+    background-color: #0f0;
+}
+.imgSlide .img.i3{
+    background-color: #00f;
+}
+
+/* content */
+.contentWrap{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.contentWrap .content{
+    margin-top: 80px;
+    text-align: center;
+}
+.contentWrap .content.cnt1 h3{
+    width: 33%;
+    margin: 0 auto;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.contentWrap .content.cnt1 article{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.contentWrap .content h4{
+    width: 33%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.contentWrap .content article{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+
